@@ -1,0 +1,14 @@
+.button.hollow {
+	border-radius: 2px;
+	border-width: 2px;
+
+	&:hover {
+		background-color: $primary-color;
+		border-color: $primary-color;
+		color: $white;
+	}
+}
+
+.row {
+  margin-bottom: 1rem;
+}

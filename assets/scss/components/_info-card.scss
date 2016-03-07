@@ -1,0 +1,38 @@
+/* ---------- Info Card ---------- */
+
+
+
+.card {
+  overflow: hidden;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+
+  .title {
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(160, 160, 160, 0.2);
+    margin-bottom: 0.5rem;
+  }
+
+  .content {
+    padding: 1.3rem;
+    font-weight: 300;
+    border-radius: 0 0 2px 2px;
+
+    p {
+      margin: 0;
+    }
+  }
+  .action {
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    padding: 1.3rem;
+
+    .button {
+      font-size: 2rem;
+      margin: 0;
+      padding: 0.5rem 1rem;
+      font-size: 1.5rem;
+      letter-spacing: 0.1rem;
+    }
+  }
+}

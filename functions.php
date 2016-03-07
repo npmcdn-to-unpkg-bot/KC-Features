@@ -44,5 +44,8 @@ require_once( 'library/custom-nav.php' );
 /** Change WP's sticky post class */
 require_once( 'library/sticky-posts.php' );
 
+/** Stop Wordpress from autoformatting posts */ 
+require_once( 'library/autoformat.php' ); 
+
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
 // require_once( 'library/protocol-relative-theme-assets.php' );

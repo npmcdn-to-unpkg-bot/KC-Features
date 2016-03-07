@@ -153,6 +153,7 @@ if ( ! class_exists( 'Foundationpress_img_rebuilder' ) ) :
                 }
 
                 // Filter Through Class Segments & Find Alignment Classes and Size Classes
+                /*
                 $filtered_classes = array();
 
                 foreach ( $class_segs as $class_seg ) {
@@ -167,8 +168,10 @@ if ( ! class_exists( 'Foundationpress_img_rebuilder' ) ) :
                 } else {
                     $img .= ' />';
                 }
+								
 
                 return $img;
+                */
             }
         }
 

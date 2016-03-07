@@ -1,12 +1,40 @@
-#page-full-width {
-  @include grid-row();
-  margin-top: 3rem;
 
-  .main-content {
-    @include breakpoint(small) {
-      @include grid-column(12);
+
+.contentHeader {
+	background: $primary-color;
+	margin-bottom: 3rem;
+	color: $primary-color;
+
+	div {
+    position: relative;
+    padding: 2rem 0;
+      @media only screen and (min-width: 43em) {
+        padding: 3rem;
+      }
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -3.125rem;
+      border-top: 2.1875rem solid green;
+      border-top-color: inherit;
+      border-left: 3.125rem solid transparent;
+      border-right: 3.125rem solid transparent;
     }
 
-  }
+    h1 {
+      color: #fff;
 
+      font-size: 3rem;
+      letter-spacing: 0.25rem;
+      text-transform: uppercase;
+
+      @media only screen and (min-width: 43em) {
+        font-size: 4rem;
+        letter-spacing: 1rem;
+      }
+    }
+  }
 }

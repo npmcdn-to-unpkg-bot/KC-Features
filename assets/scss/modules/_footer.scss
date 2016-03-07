@@ -1,18 +1,30 @@
+
+
 #footer-container {
 	max-width: 100%;
 	width: 100%;
-	margin: 0 auto;
-	border-top: 1px solid #ccc;
-	margin-top: rem-calc(60);
+	background: $secondary-color;
+	padding: 1rem 0;
+	color: $white;
+	padding-top: 2rem;
+	margin-top: 2.5rem;
 
-	#footer {
-		@include grid-row();
-		padding: rem-calc(30) 0;
+	a {
+		color: white;
+	}
 
-		ul {
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
+	.button.hollow {
+		border: 1px solid $white;
+
+		&:hover {
+			background-color: $white;
+			color: $secondary-color
 		}
 	}
+	
+}
+
+
+#contactMessage {
+	margin-bottom: 1.5rem;
 }

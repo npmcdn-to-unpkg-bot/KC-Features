@@ -1,0 +1,19 @@
+.logoContainer {
+	background: #333;
+	height: 15.625rem;
+	padding-top: 1.6875rem;
+	width: 100%;
+
+	div {
+		margin-left: auto;
+		margin-right: auto;
+		width: 9.375rem;
+		height: 12.25rem;
+
+		img {
+			width: 9.375rem;
+			padding: 0.625rem;
+			border: 2px solid $white;
+		}
+	}
+}

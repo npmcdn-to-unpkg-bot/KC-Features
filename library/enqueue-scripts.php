@@ -18,8 +18,14 @@ if ( ! function_exists( 'foundationpress_scripts' ) ) :
 	// Deregister the jquery version bundled with WordPress.
 	wp_deregister_script( 'jquery' );
 
+	//Deregister Font Awesome loaded by Instagram Feed plugin
+	wp_dequeue_style('sb_instagram_icons');
+
 	// CDN hosted jQuery placed in the header, as some plugins require that jQuery is loaded in the header.
 	wp_enqueue_script( 'jquery', '//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js', array(), '2.1.0', false );
+
+	// Adobe Typekit
+	wp_enqueue_script( 'typekit', '//use.typekit.net/clb5chs.js', array(), '1.0', false );
 
 	// If you'd like to cherry-pick the foundation components you need in your project, head over to gulpfile.js and see lines 35-54.
 	// It's a good idea to do this, performance-wise. No need to load everything if you're just going to use the grid anyway, you know :)
