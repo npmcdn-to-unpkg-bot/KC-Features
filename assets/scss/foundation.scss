@@ -8,7 +8,6 @@
 */
 
 
-
 // Foundation mixins & browser resets
 @import '../components/foundation-sites/scss/foundation';
 
@@ -55,7 +54,7 @@
 // @include foundation-meter-element;
 // @include foundation-slider;
 // @include foundation-sticky;
-// @include foundation-reveal;
+@include foundation-reveal;
 // @include foundation-switch;
 // @include foundation-table;
 // @include foundation-tabs;
@@ -112,6 +111,9 @@
 @import "templates/videography";
 @import "templates/about";
 @import "templates/page-full-width";
+
+// Google Fonts
+@import url(https://fonts.googleapis.com/css?family=Oswald|Lato:300);
 
 
 

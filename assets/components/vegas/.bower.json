@@ -1,0 +1,28 @@
+{
+  "name": "vegas",
+  "version": "2.2.0",
+  "main": [
+    "dist/vegas.min.js",
+    "dist/vegas.min.css"
+  ],
+  "ignore": [
+    "src",
+    "gulpfile.js",
+    "package.json",
+    "component.json"
+  ],
+  "dependencies": {
+    "jquery": ">=1.9"
+  },
+  "homepage": "https://github.com/jaysalvat/vegas",
+  "_release": "2.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.2.0",
+    "commit": "9e0a59f0ded95c9b3c53351dd17f5bdcbe42555a"
+  },
+  "_source": "git://github.com/jaysalvat/vegas.git",
+  "_target": "^2.2.0",
+  "_originalSource": "vegas",
+  "_direct": true
+}

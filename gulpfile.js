@@ -47,7 +47,7 @@ var PATHS = {
     // 'assets/components/foundation-sites/js/foundation.orbit.js',
     'assets/components/foundation-sites/js/foundation.responsiveMenu.js',
     'assets/components/foundation-sites/js/foundation.responsiveToggle.js',
-    // 'assets/components/foundation-sites/js/foundation.reveal.js',
+    'assets/components/foundation-sites/js/foundation.reveal.js',
     // 'assets/components/foundation-sites/js/foundation.slider.js',
     // 'assets/components/foundation-sites/js/foundation.sticky.js',
     // 'assets/components/foundation-sites/js/foundation.tabs.js',

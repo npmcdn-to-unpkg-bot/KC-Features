@@ -11,13 +11,6 @@ get_header(); ?>
 <?php do_action( 'foundationpress_before_content' ); ?>
 <?php while ( have_posts() ) : the_post(); ?>
   <article <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>">
-    <header>
-      <div class="row expanded contentHeader">
-        <div class="small-12 columns text-center">
-          <h1><?php the_title(); ?></h1>
-        </div>
-      </div>
-    </header>
 
 
     <?php do_action( 'foundationpress_page_before_entry_content' ); ?>

@@ -1,11 +1,4 @@
 .DS_Store
-*.sass-cache*
-*.log
+assets/scss/.sass-cache/*
 node_modules/
-assets/stylesheets/
-assets/components/
-assets/javascript/vendor/
-assets/javascript/foundation.js
-assets/javascript/custom/demosite.js
-packaged/
-wpcs/
+bower_components/
