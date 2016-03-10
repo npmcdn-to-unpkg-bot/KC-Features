@@ -13,7 +13,7 @@ var del         = require('del');
 
 // Enter URL of your local server here
 // Example: 'http://localwebsite.dev'
-var URL = 'http://localhost:8888/kcfeatures/';
+var URL = 'http://localhost:80/kcfeatures/';
 
 // Check for --production flag
 var isProduction = !!(argv.production);
@@ -26,7 +26,7 @@ var PATHS = {
   sass: [
     'assets/components/foundation-sites/scss',
     'assets/components/motion-ui/src',
-    'assets/components/fontawesome/scss',
+    // 'assets/components/fontawesome/scss',
   ],
   javascript: [
     'assets/components/what-input/what-input.js',
@@ -66,6 +66,12 @@ var PATHS = {
     // Masonry & Images Loaded
     'assets/components/masonry/dist/masonry.pkgd.js',
     'assets/components/imagesloaded/imagesloaded.pkgd.js',
+
+    // Smooth Scroll
+    'assets/components/smooth-scroll/dist/js/smooth-scroll.js',
+
+    // Instagram Feed
+    // '../../plugins/instagram-feed/js/sb-instagram.js',
 
     // Include your own custom scripts (located in the custom folder)
     'assets/javascript/custom/*.js',

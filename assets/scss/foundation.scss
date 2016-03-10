@@ -16,7 +16,7 @@
 @import "global/wp-overrides"; // Override the default WordPress styling for some elements
 
 // Third-party libraries
-@import 'font-awesome';
+// @import 'font-awesome';
 // @import 'motion-ui';
 
 // Foundation global styles
@@ -75,6 +75,12 @@
   My custom styles:
   Add your scss files below to structure your project styles
 */
+
+// Font Awesome 4 Menus
+@import "../../plugins/font-awesome-4-menus/css/font-awesome";
+
+// Instagram Feed
+@import "../../plugins/instagram-feed/css/sb-instagram";
 
 // Bourbon
 @import "assets/components/bourbon/app/assets/stylesheets/bourbon";

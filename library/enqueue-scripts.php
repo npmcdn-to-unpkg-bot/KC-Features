@@ -18,11 +18,24 @@ if ( ! function_exists( 'foundationpress_scripts' ) ) :
 	// Deregister the jquery version bundled with WordPress.
 	wp_deregister_script( 'jquery' );
 
-	//Deregister Font Awesome loaded by Instagram Feed plugin
+	// Deregister WP-Embed script
+	wp_deregister_script( 'wp-embed' );
+
+	//Dequeue Font Awesome loaded by Instagram Feed plugin
 	wp_dequeue_style('sb_instagram_icons');
 
+	//Dequeue Instagram Feed CSS so that it can be loaded by gulp
+	wp_dequeue_style('sb_instagram_styles');
+
+	// Deregister Instagram Feed JS
+	// wp_deregister_script('sb_instagram_scripts');
+
+	//Dequeue Font Aesome 4 Menus CSS so that it can be loaded by gulp
+	wp_dequeue_style('font-awesome-four');
+
+
 	// CDN hosted jQuery placed in the header, as some plugins require that jQuery is loaded in the header.
-	wp_enqueue_script( 'jquery', '//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js', array(), '2.1.0', false );
+	wp_enqueue_script( 'jquery', '//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js', array(), '', true );
 
 
 	// If you'd like to cherry-pick the foundation components you need in your project, head over to gulpfile.js and see lines 35-54.

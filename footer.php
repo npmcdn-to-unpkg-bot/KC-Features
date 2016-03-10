@@ -66,6 +66,9 @@ jQuery(function($) {
 	});
 });
 </script>
+<script type="text/javascript">
+	smoothScroll.init();
+</script>
 
 
 <?php do_action( 'foundationpress_before_closing_body' ); ?>
